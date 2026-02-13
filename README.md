@@ -1,5 +1,8 @@
 # Video Transcription & Analysis Studio
 
+![alt text](image.png)
+
+
 An advanced Full-Stack application (React + Flask) for transcribing videos, generating LaTeX summaries, creating podcasts, and running interactive quizzes. This project utilizes local LLMs (Ollama) and cloud APIs (OpenRouter) to provide deep insights into educational content.
 
 ## 🚀 Features
