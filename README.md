@@ -8,7 +8,7 @@ An advanced Full-Stack application (React + Flask) for transcribing videos, gene
 
 -   **Multi-Format Support**: Upload Video/Audio (MP4, MP3, WAV), Documents (PDF, PPTX, DOCX), or download directly from YouTube.
 -   **Advanced Transcription**: Uses OpenAI Whisper for accurate speech-to-text.
--   **Intelligent Summarization**: Generates comprehensive LaTeX summaries using LLMs (Qwen, GPT-4o, Gemini).
+-   **Intelligent Summarization**: Generates comprehensive LaTeX summaries using LLMs (Gemini 2.5 Flash Lite).
 -   **PDF Generation**: Compiles LaTeX summaries into professional PDFs automatically.
 -   **Podcast Generation**: Converts transcripts into engaging, multi-speaker style podcast scripts and audio (using Kokoro TTS).
 -   **Interactive Quizzes**: Generates quizzes from content to test understanding.
