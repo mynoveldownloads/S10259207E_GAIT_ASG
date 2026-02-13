@@ -1,0 +1,12 @@
+streamlit
+yt-dlp
+openai-whisper
+torch
+ffmpeg-python
+kokoro
+soundfile
+openai
+pymupdf
+python-pptx
+python-docx
+python-dotenv

@@ -1,0 +1,71 @@
+{
+  "quiz_title": "Quiz on The Emerging Role of the NFL's Chief Kindness Officer",
+  "total_questions": 5,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Who was appointed as the NFL's first Chief Kindness Officer in 2024?",
+      "options": {
+        "A": "Larry Fitzgerald",
+        "B": "Darman",
+        "C": "Tom Brady",
+        "D": "Peyton Manning"
+      },
+      "correct_answer": "B",
+      "explanation": "The text states that Darman, a former entrepreneur, was appointed by the NFL in 2024 as its first Chief Kindness Officer. The other options were not mentioned in this context.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "question": "Which of the following is NOT listed as a primary duty of the Chief Kindness Officer?",
+      "options": {
+        "A": "Encourage sportsmanship and empathy among players, staff, and fans",
+        "B": "Serve as a liaison between the NFL and charitable organizations",
+        "C": "Increase ticket sales across all games",
+        "D": "Initiate public campaigns such as the \u201cBe Kind to Your Rival\u201d challenge"
+      },
+      "correct_answer": "C",
+      "explanation": "The duties outlined include encouraging sportsmanship, acting as a liaison to charities, and initiating public campaigns. Increasing ticket sales is not mentioned as a duty in the provided text.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 3,
+      "question": "Why did the NFL appoint a Chief Kindness Officer?",
+      "options": {
+        "A": "To improve its public image by aligning with values beyond the sport",
+        "B": "To replace the position of the Commissioner",
+        "C": "To reduce player salaries across the league",
+        "D": "To manage the league\u2019s legal disputes"
+      },
+      "correct_answer": "A",
+      "explanation": "The article explains that the NFL sought to improve its public image by promoting sportsmanship, respect, and kindness, leveraging Darman\u2019s social media following to amplify these values. The other options are not supported by the content.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 4,
+      "question": "How has public perception of the Chief Kindness Officer role been characterized in initial reactions?",
+      "options": {
+        "A": "As a substantive policy change that addresses systemic issues",
+        "B": "As a PR stunt rather than a substantive change",
+        "C": "As creating a new revenue stream for the NFL",
+        "D": "As a direct impact on player contract negotiations"
+      },
+      "correct_answer": "B",
+      "explanation": "The text notes that commentators compared the role to a PR stunt and that critics view it as performative. The other options do not reflect the initial reaction described in the material.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 5,
+      "question": "From an institutional perspective, which criticism best captures concerns about the role?",
+      "options": {
+        "A": "It comprehensively tackles systemic problems within the league",
+        "B": "It is performative and fails to address systemic issues",
+        "C": "It significantly enhances community engagement",
+        "D": "It reduces marketing costs for the NFL"
+      },
+      "correct_answer": "B",
+      "explanation": "The article explicitly states that critics argue the position is performative and does not address systemic issues, making \u201cperformative and fails to address systemic issues\u201d the correct critique. The other statements are not supported by the text.",
+      "difficulty": "hard"
+    }
+  ]
+}

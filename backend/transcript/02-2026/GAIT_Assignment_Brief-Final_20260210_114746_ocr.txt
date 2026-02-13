@@ -1,0 +1,534 @@
+--- PDF Page 1 ---
+Page 1 of 7 
+ 
+                    Official (Closed) - Non Sensitive 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Generative AI Tools & Techniques  
+Assignment 
+ 
+Oct 2025 Semester 
+ 
+ 
+ 
+ASSIGNMENT 1 
+(40% of Module) 
+ 
+ 
+ 
+ 
+Submission Deadline: 
+F2F Presentation: 3rd or 10th Feb 2026 (Tue) 
+Files Submission: 13th Feb 2026 (Fri), 11:59PM 
+ 
+Tutorial Group  
+: T01 
+Student Name 
+:   
+Student Number 
+:  
+ 
+ 
+Penalty for late submission:  
+10% of the marks will be deducted every calendar day after the deadline.  
+NO submission will be accepted after 15th Feb 2026 (Sun), 11:59PM. 
+School of InfoComm Technology
+[Image Content Analysis]:
+Here is the accurate text extracted from the image:
+
+---
+Official (Closed) - Non Sensitive
+
+-------------------------------------------
+
+**[Logo: ngee ann polytechnic]**
+
+School of InfoComm Technology
+
+-------------------------------------------
+
+**Generative AI Tools & Techniques**
+**Assignment**
+
+Oct 2025 Semester
+
+**ASSIGNMENT 1**
+(40% of Module)
+
+**Submission Deadline:**
+
+F2F Presentation: 3rd or 10th Feb 2026 (Tue)
+Files Submission: 13th Feb 2026 (Fri), 11:59 PM
+
+| Tutorial Group | : T01 |
+|----------------|-------|
+| Student Name   | :     |
+| Student Number | :     |
+
+**Penalty for late submission:**
+
+10% of the marks will be deducted every calendar day after the deadline.
+**NO submission will be accepted after 15th Feb 2026 (Sun), 11:59 PM.**
+
+-------------------------------------------
+
+Page 1 of 7
+---
+
+--- PDF Page 2 ---
+Page 2 of 7 
+ 
+                    Official (Closed) - Non Sensitive 
+1. OBJECTIVE    
+The objective of this capstone project is to assess your ability to conceptualise, design, 
+develop, and deploy a functional Generative AI-powered system by applying the tools, 
+models, and techniques learned throughout the module. 
+Through this assignment, you will demonstrate your ability to: 
+• 
+Apply Generative AI concepts in a practical context 
+• 
+Design effective prompts and AI workflows 
+• 
+Integrate Generative AI across two or more modalities (eg. text, image, video, 
+audio, code etc.) 
+• 
+Translate AI capabilities into a usable application or tool 
+• 
+Evaluate ethical considerations and limitations of Generative AI systems 
+This assignment represents a culmination of your learning, moving from 
+experimentation with AI tools to building a purposeful, working solution. 
+ 
+2. SCOPE 
+This is an individual assignment. You are responsible for the end-to-end design, 
+development, and deployment of your solution. 
+Your project must: 
+• 
+Address one clearly defined user problem 
+• 
+Be designed for one primary target user persona 
+• 
+Focus on one main application workflow 
+• 
+Result in a working and demo-able system 
+You are expected to keep the scope focused and realistic.  
+Mandatory Gen AI Scope: 
+1. Text-based Generative AI (LLM) – mandatory 
+2. ONE additional Generative AI modality (choose one or more): 
+o 
+Image generation 
+o 
+Audio / voice generation 
+o 
+Video / avatar generation 
+o 
+Code generation 
+3. Application logic beyond a single prompt (e.g. multi-step workflow, prompt 
+chaining, or conditional logic) 
+4. Deployment (can be local and/or remote) as a usable application or tool
+
+--- PDF Page 3 ---
+Page 3 of 7 
+ 
+                    Official (Closed) - Non Sensitive 
+3. TASKS 
+Task 1: Problem Definition & Ideation 
+You must: 
+• 
+Identify a real or realistic user problem 
+• 
+Define your target user persona 
+• 
+Explain why Generative AI is suitable for addressing this problem 
+• 
+Clearly describe your proposed solution and its key features 
+Task 2: System & AI Design  
+You must: 
+• 
+Design the overall system workflow (user flow) 
+• 
+Identify the Generative AI tools, platforms, and models used 
+• 
+Develop and document your prompt strategies 
+• 
+Explain how different AI components interact within your system 
+Task 3: Development & Implementation  
+You must: 
+• 
+Implement the Generative AI workflows 
+• 
+Integrate at least two AI modalities (text + one additional modality) 
+• 
+Build a user interface or interaction layer 
+• 
+Ensure your system produces consistent and meaningful outputs 
+Task 4: Deployment  
+You must: 
+• 
+Deploy your application or tool so that it can be demonstrated 
+• 
+Ensure your system is accessible (web app, local runnable app, or hosted demo) 
+• 
+Provide clear instructions for running or accessing your application 
+Task 5: Ethics, Evaluation & Reflection  
+You must: 
+• 
+Identify ethical considerations (e.g. bias, misuse, data privacy) 
+• 
+Discuss system limitations and potential risks 
+• 
+Reflect on your design decisions, challenges, and learning outcomes 
+• 
+Suggest possible future improvements 
+Task 6: Presentation & Demonstration 
+You must: 
+• 
+Present your final product clearly and professionally 
+• 
+Demonstrate the full working flow of your system 
+• 
+Explain your key design and AI-related decisions
+
+--- PDF Page 4 ---
+Page 4 of 7 
+ 
+                    Official (Closed) - Non Sensitive 
+• 
+Respond to questions about your implementation and limitations 
+You will be given 10 minutes in total to: 
+• 
+Present your project concept and design 
+• 
+Demonstrate your working system 
+• 
+Answer brief questions from the assessor 
+ 
+4. ASSIGNMENT DELIVERABLES 
+You must complete all of the following: 
+Each student is required to submit the report and all files of the working application/system 
+in Brightspace. Before submission to Brightspace, please ensure that the report file follow 
+the naming convention below with the name and ID of the student. 
+ 
+(i) 
+Written Report (.docx) containing: 
+• 
+Cover page (Title, Name, Student ID, Class) 
+• 
+Table of Contents 
+• 
+Introduction and problem statement 
+• 
+Target user and use case 
+• 
+System architecture and workflow 
+• 
+Generative AI tools and models used 
+• 
+Prompt engineering strategy (with examples) 
+• 
+Application features and screenshots 
+• 
+Ethical considerations and limitations 
+• 
+Reflection and future improvements 
+Name your file: 
+GAIT_Assignment_[YourName]_[StudentID].docx 
+(i) 
+Working Application/System 
+ 
+You must submit: 
+• 
+A deployed web application or 
+• 
+A local runnable application with clear setup instructions 
+ 
+Your application/system must: 
+• 
+Be functional 
+• 
+Demonstrate the required Generative AI capabilities and assignment 
+requirements 
+• 
+Be usable during the presentation session 
+(ii) Presentation/Demonstration 
+ 
+You must: 
+• 
+Prepare presentation slides (if required) 
+• 
+Deliver a 10-minute presentation and live demo 
+• 
+Clearly explain your system, AI workflow, and design choices 
+ 
+All submissions to BrightSpace in Assignment Submission by 13th Feb 2025 (Fri), 11:59pm
+
+--- PDF Page 5 ---
+Page 5 of 7 
+ 
+                    Official (Closed) - Non Sensitive 
+4. ASSESSMENT CRITERIA 
+ 
+Component 
+Marks 
+Details / Expectations 
+Problem Definition 
+& Use Case 
+15 marks 
+Clarity of problem, relevance, and appropriate use of 
+Generative AI 
+Prompt 
+Engineering & AI 
+Design 
+30 marks 
+Prompt structure, chaining, workflow logic, and AI 
+integration 
+Technical 
+Implementation 
+30 marks 
+Functionality, stability, modality integration, and 
+usability 
+Ethics, Reflection 
+& Limitations 
+10 marks 
+Responsible AI awareness and critical reflection 
+Presentation 
+& 
+Demonstration 
+15 marks 
+Clear explanation, effective demo, and ability to 
+answer questions 
+TOTAL 
+100 
+ 
+ 
+ 
+Your answers to all tasks must be formatted suitably and accompanied with relevant 
+documentation/explanatory notes where appropriate. 
+ 
+IMPORTANT: Plagiarism and Copyright Issues 
+ 
+Plagiarism means, “copying any part of a source, and then submitting it, claiming that it is 
+your own work.”   
+ 
+Please ensure that all the works submitted by you are not copied from other sources. Any 
+attempt to plagiarize will be dealt with severely, and it may result in your failing the module.   
+ 
+If you have made any references to certain materials, make sure you cite the sources by 
+acknowledging and providing the information necessary to find the source (e.g. Title and 
+author of book, Internet links, etc.) 
+ 
+Please refer to the following URL for more details: 
+https://www.np.edu.sg/student-life/building-an-inclusive-np-community/code-of-conduct/np-
+plagiarism-policy
+
+--- PDF Page 6 ---
+Page 6 of 7 
+ 
+                    Official (Closed) - Non Sensitive 
+Marking Rubrics 
+Component 
+Marks 
+Excellent 
+Good 
+Satisfactory 
+Needs Improvement 
+Problem 
+Definition & Use 
+Case 
+15 
+(12-15 marks) 
+Problem is highly 
+relevant, specific, and 
+clearly articulated. The 
+use of GenAI is innovative 
+and provides a distinct 
+advantage over traditional 
+solutions. Target user is 
+well-defined and the 
+solution is perfectly 
+aligned with their needs. 
+(9-11 marks) 
+Problem is relevant and 
+clearly stated. The use of 
+GenAI is appropriate. 
+Target user is defined and 
+the solution addresses 
+their needs. 
+(6-8 marks) 
+Problem is somewhat 
+generic or lacks a clear 
+user focus. The use of 
+GenAI is functional but 
+not particularly 
+advantageous. Solution 
+is loosely connected to 
+user needs. 
+(0-5 marks) 
+Problem is unclear, 
+irrelevant, or poorly 
+defined. The use of 
+GenAI is inappropriate 
+or trivial. No clear user 
+or problem is identified. 
+Prompt 
+Engineering & AI 
+Design 
+30 
+(24-30 marks) 
+Demonstrates 
+sophisticated prompt 
+engineering with 
+techniques like few-shot 
+prompting, chaining, and 
+structured output (JSON). 
+The AI workflow is logical, 
+efficient, and robust. The 
+architecture is well-
+designed and clearly 
+documented. 
+(18-23 marks) 
+Prompts are well-
+structured and effective. 
+The AI workflow is 
+functional and logical. The 
+system architecture is clear 
+and appropriate for the 
+task. 
+(12-17 marks) 
+Prompts are functional 
+but basic. The AI 
+workflow is simple and 
+may not be robust. The 
+system architecture is 
+present but may be 
+inefficient or unclear. 
+(0-11 marks) 
+Prompts are poorly 
+constructed and 
+ineffective. The AI 
+workflow is illogical, 
+broken, or non-existent. 
+The system 
+architecture is missing 
+or fundamentally 
+flawed. 
+Technical 
+Implementation 
+30 
+(24-30 marks) 
+The application is fully 
+functional, stable, and 
+deployed correctly. Both 
+AI modalities are 
+seamlessly integrated. 
+The user interface is 
+(18-23 marks) 
+The application is 
+functional with minor bugs. 
+Both AI modalities are 
+integrated. The user 
+interface is usable but may 
+lack polish. 
+(12-17 marks) 
+The core application 
+works but may be 
+unstable or have 
+significant bugs. 
+Modality integration is 
+incomplete or clumsy. 
+(0-11 marks) 
+The application is non-
+functional or fails to run. 
+Required AI modalities 
+are not integrated. The 
+user interface is 
+missing or unusable.
+
+--- PDF Page 7 ---
+Page 7 of 7 
+ 
+                    Official (Closed) - Non Sensitive 
+intuitive, polished, and 
+highly usable. 
+The user interface is 
+difficult to use. 
+Ethics, 
+Reflection & 
+Limitations 
+10 
+(8-10 marks) 
+Provides a deep, critical 
+analysis of ethical issues 
+(bias, privacy). Offers 
+insightful reflection on the 
+project's limitations and 
+challenges. Demonstrates 
+a mature understanding of 
+responsible AI 
+development. 
+(6-7 marks) 
+Identifies relevant ethical 
+issues and discusses the 
+project's limitations. 
+Reflection is thoughtful and 
+demonstrates learning. 
+(4-5 marks) 
+Briefly mentions ethical 
+issues and limitations 
+but lacks depth or 
+critical analysis. 
+Reflection is superficial. 
+(0-3 marks) 
+Fails to address ethical 
+issues or limitations. 
+Reflection is missing or 
+shows a lack of 
+understanding. 
+Presentation & 
+Demonstration 
+15 
+(12-15 marks) 
+Explanation is 
+exceptionally clear, 
+concise, and professional. 
+The live demo is smooth 
+and effectively showcases 
+the project's value. 
+Confidently and 
+accurately answers all 
+questions. 
+(9-11 marks) 
+Explanation is clear and 
+the live demo is 
+successful. Able to answer 
+most questions correctly. 
+(6-8 marks) 
+Explanation is 
+somewhat unclear or 
+disorganized. The 
+demo may have 
+technical issues. 
+Struggles to answer 
+some questions. 
+(0-5 marks) 
+Explanation is 
+confusing or 
+incomplete. The demo 
+fails or does not 
+showcase the project's 
+functionality. Unable to 
+answer questions. 
+TOTAL 
+100 
+ 
+ 
+ 
+ 
+ 
+End of Document

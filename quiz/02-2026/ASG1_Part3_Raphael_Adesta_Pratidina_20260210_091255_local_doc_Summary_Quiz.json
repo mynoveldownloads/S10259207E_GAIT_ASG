@@ -1,0 +1,71 @@
+{
+  "quiz_title": "Quiz on AI-Enhanced Digital Learning Design",
+  "total_questions": 5,
+  "questions": [
+    {
+      "id": 1,
+      "question": "In the context of AI-driven education, what does \"Task Understanding\" primarily refer to?",
+      "options": {
+        "A": "Determining the most popular learner tasks.",
+        "B": "Analyzing the tasks learners must complete to meet learning goals.",
+        "C": "Generating tasks automatically.",
+        "D": "Assigning grades to tasks."
+      },
+      "correct_answer": "B",
+      "explanation": "Task Understanding involves a deep analysis of the learning tasks that learners need to accomplish to achieve stated objectives. Option B captures this analytical role. Option A refers to popularity metrics, C to task generation, and D to evaluation; none reflect the foundational understanding of the task itself.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "question": "Which statement best captures an effective use of AI in supporting learners during formative assessment?",
+      "options": {
+        "A": "Using AI to replace all human grading.",
+        "B": "Employing AI to provide immediate, personalized feedback.",
+        "C": "Employing AI only for data collection.",
+        "D": "Using AI to eliminate the need for human instructors."
+      },
+      "correct_answer": "B",
+      "explanation": "Formative assessment thrives on timely, individualized insights. AI excels at delivering personalized feedback quickly, which directly supports learning. Options A, C, and D either overstate AI's role or neglect the formative focus of timely feedback.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 3,
+      "question": "What aspect of user experience is most critical for ensuring students engage with AI-based educational platforms?",
+      "options": {
+        "A": "Rich multimedia content.",
+        "B": "Intuitive interface and clear navigation.",
+        "C": "Complexity of AI features.",
+        "D": "Frequency of platform updates."
+      },
+      "correct_answer": "B",
+      "explanation": "An intuitive interface and clear navigation reduce cognitive load, enabling learners to focus on content rather than struggling with tools. This foundational UX element directly drives engagement. The other options may enhance appeal but are secondary to ease of use.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 4,
+      "question": "What is a key prerequisite for developers when integrating large language models (LLMs) into educational tools?",
+      "options": {
+        "A": "Understanding of natural language tokenization.",
+        "B": "Mastery of all programming languages.",
+        "C": "Ability to collect learner data.",
+        "D": "Only knowledge of user interface design."
+      },
+      "correct_answer": "A",
+      "explanation": "Tokenization influences how LLMs process input and generate meaning, directly affecting performance. Developers therefore need a solid grasp of tokenization. Options B, C, and D focus on unrelated or less critical skills.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 5,
+      "question": "How can learners reflect on AI-generated feedback to enhance learning outcomes?",
+      "options": {
+        "A": "Accept all suggestions without question.",
+        "B": "Analyze the reasoning behind the AI's feedback.",
+        "C": "Provide feedback on the AI itself.",
+        "D": "Ignore AI recommendations."
+      },
+      "correct_answer": "B",
+      "explanation": "Deep reflection involves questioning why the AI offers a particular recommendation and how it aligns with learning goals, leading to meaningful learning. Simply accepting, ignoring, or critiquing AI without analysis does not foster insight.",
+      "difficulty": "hard"
+    }
+  ]
+}

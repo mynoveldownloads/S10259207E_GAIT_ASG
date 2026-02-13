@@ -1,0 +1,71 @@
+{
+  "quiz_title": "Quiz on PCIe Gen5 Lane Management and GPU Scaling Overview",
+  "total_questions": 5,
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the raw data rate per lane of PCIe Gen5 compared to PCIe Gen4?",
+      "options": {
+        "A": "The same as Gen4 (16 GT/s)",
+        "B": "Approximately twice that of Gen4 (32 GT/s)",
+        "C": "Half of Gen4 (8 GT/s)",
+        "D": "Three times Gen4 (48 GT/s)"
+      },
+      "correct_answer": "B",
+      "explanation": "PCIe Gen5 operates at 32 GT/s per lane, which is roughly twice the 16 GT/s of Gen4. Thus, its raw data rate per lane is about double that of Gen4.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "question": "What is the primary function of a redriver chip in a PCIe Gen5 link?",
+      "options": {
+        "A": "It re\u2011clocks the incoming signal to restore timing margins",
+        "B": "It amplifies the signal without altering its timing",
+        "C": "It completely regenerates the signal and adds buffering",
+        "D": "It converts differential pairs to single\u2011ended signals"
+      },
+      "correct_answer": "B",
+      "explanation": "A redriver amplifies the incoming PCIe signal to counteract attenuation but deliberately does not modify its timing. This preserves the original data patterns while restoring signal strength.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 3,
+      "question": "Why are retimer chips essential for Gen5 PCIe cables?",
+      "options": {
+        "A": "They increase the voltage swing to improve signal amplitude",
+        "B": "They reshape and re\u2011clock the signal to recover timing margins",
+        "C": "They reduce the power draw of long cables",
+        "D": "They enable conversion between PCIe and CXL protocols"
+      },
+      "correct_answer": "B",
+      "explanation": "Retimer chips are needed because Gen5 signals degrade over relatively short distances. They clean up jitter, reshape the waveforms, and re\u2011clock the data to restore timing margins and keep the link error\u2011free.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 4,
+      "question": "An x16 PCIe Gen5 link can deliver up to 64\u202fGB/s in each direction. Approximately how much bandwidth does a single lane provide?",
+      "options": {
+        "A": "4\u202fGB/s",
+        "B": "8\u202fGB/s",
+        "C": "16\u202fGB/s",
+        "D": "32\u202fGB/s"
+      },
+      "correct_answer": "A",
+      "explanation": "A single lane at Gen5 delivers roughly 4\u202fGB/s (32 GT/s \u00d7 1\u202fbit per clock = 4\u202fGB/s). Multiplying by 16 lanes gives the 64\u202fGB/s total throughput.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 5,
+      "question": "How can adapters contribute to system flexibility when managing PCIe lanes for multiple GPUs, storage, and future technologies?",
+      "options": {
+        "A": "By converting PCIe signals to USB for external GPUs",
+        "B": "By allowing the re\u2011allocation of lane bundles across different devices such as GPUs, SSDs, and CXL modules",
+        "C": "By providing additional power supply to GPUs through USB-C",
+        "D": "By decreasing the latency of all PCIe transactions"
+      },
+      "correct_answer": "B",
+      "explanation": "Adapters with re\u2011bifurcation logic enable a system to split or combine PCIe lane sets, letting designers route x8, x4, or x16 lanes to GPUs, SSDs, or CXL devices as needed, thus providing hardware flexibility without changing motherboard traces.",
+      "difficulty": "medium"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "quiz_title": "Quiz on 1200\u202fW Power\u2011Supply Options",
+  "total_questions": 5,
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the main reason a 1200\u202fW rating is important for a high\u2011performance gaming rig?",
+      "options": {
+        "A": "It guarantees the PSU can deliver enough power for multiple high\u2011draw GPUs and components.",
+        "B": "It guarantees the PSU will be quieter.",
+        "C": "It guarantees the PSU will be the cheapest option on the market.",
+        "D": "It guarantees the PSU has the most advanced brand logo."
+      },
+      "correct_answer": "A",
+      "explanation": "A 1200\u202fW rating ensures the unit can supply enough current for demanding components such as dual RTX\u2011type GPUs. Quietness, price, and logo are unrelated to the wattage specification.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "question": "Which benefit is most directly associated with a fully modular PSU design?",
+      "options": {
+        "A": "Reduced manufacturing cost.",
+        "B": "Improved cable management, airflow, and aesthetics inside the case.",
+        "C": "Higher maximum output voltage on the 12\u202fV rail.",
+        "D": "Automatic load balancing across rails."
+      },
+      "correct_answer": "B",
+      "explanation": "Fully modular means no fixed cables; only needed cables are attached, reducing clutter, improving airflow, and making the build look cleaner. Cost, output, and load balancing are not directly affected.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 3,
+      "question": "Why might an oversized PSU like a 1200\u202fW unit be less efficient during normal operation?",
+      "options": {
+        "A": "It draws more power from the wall at all times.",
+        "B": "It operates at a lower average load, causing the efficiency rating to drop below its maximum.",
+        "C": "Its internal components are less robust.",
+        "D": "It requires a larger case to fit."
+      },
+      "correct_answer": "B",
+      "explanation": "Efficiency is highest near the PSU's rated load. When the system runs at only 30\u201340\u202f% load, a 1200\u202fW unit is far under its optimal operating point, leading to a lower actual efficiency compared to a smaller unit sized for the real load.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 4,
+      "question": "What does an \"80+ Gold\" efficiency certification guarantee?",
+      "options": {
+        "A": "\"Gold\" refers to the color of the PSU's casing.",
+        "B": "The PSU maintains 80% efficiency at a minimal 20% load and 90% at a 50% load with a 120\u202fV supply.",
+        "C": "The PSU is guaranteed to last 80% longer than non\u2011certified units.",
+        "D": "The PSU provides 80% more wattage than a standard unit."
+      },
+      "correct_answer": "B",
+      "explanation": "The 80+ Gold rating describes specific efficiency percentages at defined loads (e.g., 80% at 20% load, 90% at 50% load). The color and longevity claims in options A and C are incorrect, and option D misinterprets wattage.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 5,
+      "question": "Which statement best describes the \"ATX\u202f3.1\" designation for a PSU?",
+      "options": {
+        "A": "It is the third generation of the ATX motherboard standard.",
+        "B": "It indicates the form factor of the PSU, including a specific 20/24\u2011pin ATX power connector compatible with that standard.",
+        "C": "It refers to the maximum power output of the unit.",
+        "D": "It is a thermal rating for the PSU's components."
+      },
+      "correct_answer": "B",
+      "explanation": "ATX\u202f3.1 refers to the form factor and the standard ATX power connector (20/24-pin) used to connect to motherboards. It does not denote generation, wattage, or thermal rating.",
+      "difficulty": "medium"
+    }
+  ]
+}

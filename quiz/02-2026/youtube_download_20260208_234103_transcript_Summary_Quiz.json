@@ -1,0 +1,136 @@
+{
+  "quiz_title": "Quiz on Azraq PC250 Server Hardware and Deployment",
+  "total_questions": 10,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which statement best describes the role of the RDNA\u20112 GPU in the PC250 chassis?",
+      "options": {
+        "A": "It serves solely as a graphics accelerator for local workstations.",
+        "B": "It provides 24 compute units that allow the server to process general-purpose workloads in addition to graphics.",
+        "C": "It delivers a 24\u2011compute\u2011unit, RDNA\u20112 architecture that is designed for gaming performance at lower power consumption.",
+        "D": "It operates with 36 compute units, making it identical to the GPU in the PS5 version."
+      },
+      "correct_answer": "C",
+      "explanation": "The PC250\u2019s GPU is an RDNA\u20112 device with 24 compute units, specifically selected for efficient gaming graphics within a low\u2011power server chassis. Option A limits its role, option B overstates CPU\u2011GRP use, and option D incorrectly states 36 compute units which belong to the PS5. Thus C accurately reflects the hardware\u2019s intended use.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "question": "How many logical threads are available per CPU core in the PC250\u2019s AMD Zen\u00a02 mobile processor?",
+      "options": {
+        "A": "1 thread per core",
+        "B": "2 threads per core",
+        "C": "3 threads per core",
+        "D": "4 threads per core"
+      },
+      "correct_answer": "B",
+      "explanation": "The Zen\u00a02 mobile core on the PC250 has 6 physical cores and 12 threads, meaning each core supports 2 threads via simultaneous multithreading. The other options either underestimate (A, C) or overestimate (D) this count.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 3,
+      "question": "What is the fixed memory split in the default BIOS of the standard PC250 before any modifications?",
+      "options": {
+        "A": "8\u202fGB CPU / 10\u202fGB GPU",
+        "B": "10\u202fGB CPU / 8\u202fGB GPU",
+        "C": "12\u202fGB CPU / 4\u202fGB GPU",
+        "D": "6\u202fGB CPU / 10\u202fGB GPU"
+      },
+      "correct_answer": "A",
+      "explanation": "The original BIOS offers splits of 8/10\u202fGB or 6/10\u202fGB, the most common configuration being 8\u202fGB to CPU and 10\u202fGB to GPU. Option A matches this default; the other options list splits that are either not present or are less typical.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 4,
+      "question": "Why is a Linux operating system required for full functionality of the BC250 nodes?",
+      "options": {
+        "A": "Windows drivers for the custom Zen\u202f2 core are proprietary and unstable.",
+        "B": "Linux provides native support for NVMe drives that Windows lacks.",
+        "C": "Only community\u2011built, open\u2011source drivers for the mixed Vega/RDNA components are available under Linux.",
+        "D": "The BIOS firmware is delivered as a Linux binary that cannot be executed on Windows."
+      },
+      "correct_answer": "C",
+      "explanation": "All driver support for the hybrid GPU architecture is open\u2011source and maintained within the Linux ecosystem; no Windows drivers exist. Option A misstates the issue; B refers to storage, not drivers; D incorrectly claims a Linux\u2011only binary. Thus C is correct.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 5,
+      "question": "What is the permissible range for the dynamic memory split you can set after flashing the modified BIOS?",
+      "options": {
+        "A": "0\u20118\u202fGB",
+        "B": "1\u201112\u202fGB",
+        "C": "4\u201116\u202fGB",
+        "D": "8\u201124\u202fGB"
+      },
+      "correct_answer": "B",
+      "explanation": "Dynamic memory can be configured from 1\u202fGB up to 12\u202fGB, allowing administrators to allocate between CPU and GPU within this bounds. The other ranges either include values outside the allowed limits or do not align with the 16\u202fGB total pool.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 6,
+      "question": "How many BC250 nodes are assembled into one full PC250 chassis?",
+      "options": {
+        "A": "6",
+        "B": "8",
+        "C": "10",
+        "D": "12"
+      },
+      "correct_answer": "D",
+      "explanation": "The PC250 unit, often called the Azraq rack, houses precisely 12 BC250 nodes. The number 12 is repeated in the hardware overview and throughout the documentation; the other numbers are not used.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 7,
+      "question": "Which factor was primarily responsible for the drastic drop in node price after the mining boom subsided?",
+      "options": {
+        "A": "Introduction of newer Zen\u202f3 processors",
+        "B": "The shift to RDNA\u20112 GPUs made the hardware superseded",
+        "C": "GPU mining became obsolete, reducing demand for the hardware",
+        "D": "A large volume of surplus firmware updates were released"
+      },
+      "correct_answer": "C",
+      "explanation": "Once GPU\u2011mining profitability fell, there was a surplus of unused hardware. This excess supply drove the node price down significantly\u2014an effect explicitly mentioned in the price evolution section. The other options are unrelated to the cost decline.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 8,
+      "question": "Compared to the original PS5 version, the PC250\u2019s CPU has fewer cores. What is the exact core count difference?",
+      "options": {
+        "A": "PC250 has 4 fewer cores",
+        "B": "PC250 has 2 fewer cores",
+        "C": "Both have the same number of cores",
+        "D": "PC250 has 2 more cores"
+      },
+      "correct_answer": "B",
+      "explanation": "The PC250\u2019s AMD\u2011Zen\u202f2 mobile processor has 6 cores, whereas the PS5 version employed 8 cores. Thus the PC250 has 2 fewer cores, making option B correct. Options A, C, and D misrepresent the difference.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 9,
+      "question": "Which step is essential when flashing the modified BIOS onto the BC250 through the EFI shell?",
+      "options": {
+        "A": "Back up the original BIOS with the command UEFI> backup BIOS#1",
+        "B": "Install a third\u2011party Windows driver before flashing",
+        "C": "Reboot directly into the new BIOS without resetting the CMOS",
+        "D": "Disable all power\u2011saving modes in the BIOS first"
+      },
+      "correct_answer": "A",
+      "explanation": "The flashing procedure explicitly instructs to back up the original BIOS first. The other steps are not part of or are contrary to the documented flashing flow.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 10,
+      "question": "What advantage does configuring the dynamic memory split to 512\u202fMB for the CPU provide?",
+      "options": {
+        "A": "It allows the server to boot faster in headless mode",
+        "B": "It maximizes GPU memory allocation for high\u2011resolution gaming",
+        "C": "It enables the CPU to access the full 16\u202fGB of GDDR6 memory",
+        "D": "It reduces power consumption by limiting CPU memory usage"
+      },
+      "correct_answer": "B",
+      "explanation": "Setting a minimal CPU memory split (512\u202fMB) frees the majority of the shared 16\u202fGB pool for GPU use, which is particularly beneficial for high\u2011resolution or graphical workloads in cloud gaming. Option C incorrectly suggests CPU access to all memory; D misstates power effects; A is irrelevant.",
+      "difficulty": "hard"
+    }
+  ]
+}

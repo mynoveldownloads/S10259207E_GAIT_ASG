@@ -1,0 +1,25 @@
+Here is the accurate transcription of the text from the image:
+
+---
+
+**Week 13 - Responsible AI**
+
+In this week's content, we will review:
+
+- Trust and Governance on Generative AI
+- Mitigation tools
+
+As learned in earlier topics, different countries or regions have formalized the law and governance of AI. How about generative AI? Is there new law and regulations to handle this? What is our government approach?
+
+**IMPORTANT**
+
+Remember to complete all the topics of this Week's content and submit your Padlet reflection. There is a total of 2 topics this week. To proceed to the next topic, you have to complete all learning contents and score 100% for the quizzes within each topic. Week 13 reflection will only appear after you have completed all 2 topics for this week and score 100% for the quizzes within each topic. Below is a screenshot of the overview of this week’s contents.
+
+- Week 13 - Responsible AI 10/12
+
+  ► Trust and Governance in Generative AI (Gen AI) 7/8
+  ► Mitigation tools 2/3
+
+  [Reflection on Responsible AI] (checkmark)
+
+---

@@ -1,0 +1,71 @@
+{
+  "quiz_title": "Quiz on Cloud Gaming Server Architecture and Performance",
+  "total_questions": 5,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which statement best reflects the key takeaway about using an Ampere\u2011based GPU with large VRAM in a cloud\u2011gaming server?",
+      "options": {
+        "A": "It allows the server to run a single 4K gaming VM with unlimited resource sharing.",
+        "B": "It can comfortably run several 1080p gaming VMs when paired with a high\u2011core\u2011count CPU and fast NVMe storage.",
+        "C": "It eliminates the need for any CPU, as the GPU does all processing.",
+        "D": "It requires a proprietary Intel CPU to provide the necessary software support."
+      },
+      "correct_answer": "B",
+      "explanation": "The tcolorbox in the lecture explicitly states that a modern Ampere\u2011based GPU with large VRAM, such as the RTX\u202fA5000, can comfortably run several 1080p gaming VMs when combined with a high\u2011core\u2011count CPU and fast NVMe storage. Option A overstates the capability, option C ignores required CPU support, and option D introduces unrelated Intel hardware.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "question": "What primary purpose does Nvidia Grid technology serve in the context of a cloud\u2011gaming server?",
+      "options": {
+        "A": "It enables virtualization of the storage controller to increase read/write speeds.",
+        "B": "It partitions a single Nvidia GPU into multiple virtual GPUs for use in virtual machines.",
+        "C": "It provides AI inference acceleration for game physics simulation.",
+        "D": "It reduces the physical GPU count by disabling legacy DirectX APIs."
+      },
+      "correct_answer": "B",
+      "explanation": "Nvidia Grid is specifically designed to split a single GPU into multiple vGPUs, allowing several virtual machines to share the same GPU while retaining hardware acceleration (directly quoted from the definition box). Options A, C, and D describe unrelated or incorrect functions.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 3,
+      "question": "Why is the AMD EPYC Genoa 9554 chosen over older Xeon\u2011based CPUs for this cloud\u2011gaming setup?",
+      "options": {
+        "A": "Because it has a lower core count, reducing thermal output.",
+        "B": "Because it supports integrated AI cores optimized for game rendering.",
+        "C": "Because its higher single\u2011thread performance and 128 threads reduce CPU bottlenecks in heavy multi\u2011threaded workloads.",
+        "D": "Because it is the only server CPU that supports the Nvidia Grid driver."
+      },
+      "correct_answer": "C",
+      "explanation": "The lecture notes explain that the EPYC 9554\u2019s high core count (64 cores, 128 threads) and strong single\u2011thread performance mitigate CPU contention and prevent throttling that occurs with older Xeon processors when all cores are busy. Options A, B, and D are incorrect or irrelevant.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 4,
+      "question": "During GPU virtualization with Nvidia Grid, how is VRAM allocated to the virtual GPUs?",
+      "options": {
+        "A": "The entire VRAM is shared uniformly, with each vGPU receiving an equal slice every moment.",
+        "B": "The driver slices VRAM into preset chunks (e.g., 6\u202fGB, 8\u202fGB, 12\u202fGB) and presents each chunk as a separate vGPU to the hypervisor.",
+        "C": "VRAM is not partitioned; each vGPU dynamically pulls memory as needed from a shared pool.",
+        "D": "The virtual GPUs are allocated only the CPU cache, using GPU memory only for textures."
+      },
+      "correct_answer": "B",
+      "explanation": "The content specifies that the driver splits VRAM into chunks of specific sizes (6\u202fGB, 8\u202fGB, 12\u202fGB) and presents these as separate vGPUs. This is a controlled, dynamic allocation approach, not the other options listed.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 5,
+      "question": "Which of the following is NOT a requirement for Nvidia Grid to function on a graphics card?",
+      "options": {
+        "A": "The GPU must be from a supported family such as Maxwell, Pascal, Turing, or Ampere.",
+        "B": "The GPU must run on a server\u2011grade motherboard with proper BIOS support.",
+        "C": "The GPU requires a proprietary driver suite and specific licensing fees.",
+        "D": "The GPU must have a dedicated VRAM size of at least 6\u202fGB to be partitioned."
+      },
+      "correct_answer": "D",
+      "explanation": "Nvidia Grid can work on GPUs with less than 6\u202fGB VRAM; the requirement is for supported GPU families, server\u2011grade BIOS, and the proprietary driver/licensing. Therefore option D is not a mandatory requirement.",
+      "difficulty": "hard"
+    }
+  ]
+}

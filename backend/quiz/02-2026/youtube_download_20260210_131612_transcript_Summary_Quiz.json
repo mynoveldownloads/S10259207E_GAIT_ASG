@@ -1,0 +1,71 @@
+{
+  "quiz_title": "Quiz on Hydroelectric Power Generation: From Water to Wire",
+  "total_questions": 5,
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the primary function of the six water nozzles in the Colin Rhyme Dam turbine system?",
+      "options": {
+        "A": "To regulate the temperature of the water entering the turbine",
+        "B": "To provide a high\u2011velocity stream that imparts force on the turbine buckets",
+        "C": "To split the water flow into two separate streams for redundancy",
+        "D": "To increase the pressure of the water before it reaches the generator"
+      },
+      "correct_answer": "B",
+      "explanation": "The six water nozzles are designed to create a controlled, high\u2011velocity stream that strikes the buckets, thereby transferring kinetic energy to the turbine. They do not directly regulate temperature, split the flow into two separate streams (that is the splitter\u2019s role), nor are they intended to increase pressure for the generator.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "question": "Why does the turbine design call for a sharp, knife\u2011like splitter at the bucket entrance?",
+      "options": {
+        "A": "To redirect water back onto the downstream bucket and reduce back\u2011flow",
+        "B": "To create turbulence that mixes the water for better contact with the bucket walls",
+        "C": "To divide the incoming water into two symmetric streams, minimizing splash\u2011back and energy loss",
+        "D": "To increase the overall pressure of water before it enters the bucket"
+      },
+      "correct_answer": "C",
+      "explanation": "A sharp splitter cleanly divides the water flow into two even streams that exit the bucket sides. This design reduces turbulence, splash\u2011back, and consequently energy loss, improving efficiency. A blunt splitter would do the opposite, creating turbulence and lowering efficiency.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 3,
+      "question": "How does the curved shape of a turbine bucket contribute to energy conversion efficiency?",
+      "options": {
+        "A": "It allows the bucket to hold more water, increasing the mass flow rate",
+        "B": "It channels water out in two streams, reducing back\u2011flow onto the next bucket and lowering cavitation",
+        "C": "It creates a vortex that spirals water towards the turbine axis",
+        "D": "It deflects debris away from the bucket, protecting the gear mechanism"
+      },
+      "correct_answer": "B",
+      "explanation": "The curved design of the bucket directs the water out through two even streams, which reduces the chance of back\u2011flow into the next bucket. This smooth exit minimizes turbulence and cavitation, leading to higher conversion efficiency. The other options describe unrelated effects.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 4,
+      "question": "Why is the turbine wheel set to rotate at 500\u202fRPM in the Colin Rhyme Dam plant?",
+      "options": {
+        "A": "Because a higher speed would require a larger generator to match the frequency",
+        "B": "It creates the optimal hydraulic head for maximum water pressure",
+        "C": "It balances mechanical stresses on the shaft while providing a compatible speed for the generator",
+        "D": "It allows the nozzles to deliver water at their maximum discharge rate"
+      },
+      "correct_answer": "C",
+      "explanation": "A 500\u202fRPM speed offers a compromise: it keeps mechanical stresses on the 25\u2011ton shaft within safe limits while aligning with the generator\u2019s optimal operating range, ensuring efficiency and longevity. It is not chosen for hydraulic head or nozzle discharge rate.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 5,
+      "question": "How does improper maintenance of the splitters affect both the plant\u2019s efficiency and safety?",
+      "options": {
+        "A": "A worn splitter increases water pressure, risking pipeline rupture",
+        "B": "A blunt splitter causes turbulence, lowering efficiency, and can lead to excessive vibration that endangers the shaft",
+        "C": "Not sharpening the splitter has no effect on the plant\u2019s performance but may cause visual clutter",
+        "D": "A split\u2011notched splitter improves efficiency but reduces the amount of water that reaches the turbine"
+      },
+      "correct_answer": "B",
+      "explanation": "When splitters become blunt, they create turbulence that dissipates useful energy, lowering overall efficiency. The added turbulence also raises vibration levels in the shaft, increasing wear and potential safety hazards. The other options either misrepresent the effect or are incorrect.",
+      "difficulty": "hard"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "quiz_title": "Quiz on Responsible AI",
+  "total_questions": 5,
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the primary purpose of including batch normalization in the generator network?",
+      "options": {
+        "A": "To increase the size of the weight matrices",
+        "B": "To keep activations centered and with unit variance",
+        "C": "To replace linear layers with convolutional layers",
+        "D": "To enforce sparsity in the output images"
+      },
+      "correct_answer": "B",
+      "explanation": "Batch normalization stabilises training by maintaining activations that are centered around zero and have unit variance, which reduces internal covariate shift. The other options do not describe the main function of batch normalization.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "question": "Why is visualising a batch of samples before training a generative model considered a mitigation step?",
+      "options": {
+        "A": "It guarantees the model will converge faster",
+        "B": "It helps detect bias, artifacts, or privacy leaks in the data",
+        "C": "It automatically cleans the dataset",
+        "D": "It adjusts the learning rate based on visual quality"
+      },
+      "correct_answer": "B",
+      "explanation": "Seeing the data in a grid lets developers spot undesirable patterns such as bias, artifacts, or inadvertent disclosure of personal information before training, thereby mitigating potential risks. The other options describe unrelated effects.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 3,
+      "question": "Why is the first layer of a generator network usually a linear projection of the latent noise vector?",
+      "options": {
+        "A": "To reduce the dimensionality of the input noise",
+        "B": "To expand the noise into a higher\u2011dimensional space that can be reshaped into feature maps",
+        "C": "To apply a non\u2011linear activation before convolutional layers",
+        "D": "To generate the final image directly"
+      },
+      "correct_answer": "B",
+      "explanation": "A linear layer projects the low\u2011dimensional noise vector into a higher\u2011dimensional space which can then be reshaped into a set of feature maps for further processing. It does not reduce dimensionality or directly produce the final image.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 4,
+      "question": "Which step in the data preparation workflow serves as a primary mitigation tool for protecting privacy?",
+      "options": {
+        "A": "Collect raw data (images, text, audio)",
+        "B": "Clean and de\u2011identify personal information",
+        "C": "Split into training, validation, and test sets",
+        "D": "Load with a DataLoader and optionally visualise samples"
+      },
+      "correct_answer": "B",
+      "explanation": "Cleaning and de\u2011identifying personal information removes or obscures sensitive data, directly mitigating privacy risks. The other steps do not perform this mitigation function.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 5,
+      "question": "How does the concept of 'trust' intersect with legal and policy frameworks in the responsible development of generative AI systems?",
+      "options": {
+        "A": "Trust solely refers to the technical robustness of the model and has no regulatory relevance",
+        "B": "Trust is achieved by ensuring that AI outputs comply with legal standards and by fostering user confidence in those outputs",
+        "C": "Trust is independent of policy and is only built through public relations",
+        "D": "Trust is only relevant during the deployment phase and not during development"
+      },
+      "correct_answer": "B",
+      "explanation": "Trust in AI systems comes from aligning their behavior with legal and policy requirements, ensuring transparency, fairness, and accountability, which in turn builds user confidence. The other options misunderstand or omit this relationship.",
+      "difficulty": "hard"
+    }
+  ]
+}

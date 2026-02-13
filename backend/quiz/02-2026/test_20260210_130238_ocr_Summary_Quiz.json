@@ -1,0 +1,71 @@
+{
+  "quiz_title": "Quiz on Governance Framework for Generative AI",
+  "total_questions": 5,
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the primary aim of the Accountability dimension in a generative AI governance framework?",
+      "options": {
+        "A": "To ensure AI systems run faster",
+        "B": "To provide clear incentives for responsible action by all stakeholders",
+        "C": "To replace all existing legal regulations",
+        "D": "To guarantee perfectly unbiased AI outputs"
+      },
+      "correct_answer": "B",
+      "explanation": "Accountability focuses on making sure everyone who builds or uses AI can be held answerable for the outcomes. This creates clear incentives for responsible action. Options A, C, and D do not reflect the stated purpose of Accountability.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "question": "Why is high\u2011quality, well\u2011documented data considered the foundation of trustworthy generative models?",
+      "options": {
+        "A": "Because it reduces human effort in model training",
+        "B": "Because it prevents biased or harmful outputs by providing accurate and ethically sourced information",
+        "C": "Because it allows the model to use more memory",
+        "D": "Because it guarantees the model will never need updates"
+      },
+      "correct_answer": "B",
+      "explanation": "The framework explicitly states that high\u2011quality data reduces the risk of biased or harmful outputs. This directly addresses root causes of many AI failures. Options A, C, and D do not capture this fundamental reason.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 3,
+      "question": "Which of the following best explains the trade\u2011off addressed by linking Accountability with Incident Reporting and Testing & Assurance?",
+      "options": {
+        "A": "It reduces the need for training data",
+        "B": "It balances administrative overhead with proactive risk management",
+        "C": "It ensures all AI outputs are copyrighted",
+        "D": "It eliminates the need for ethical reviews"
+      },
+      "correct_answer": "B",
+      "explanation": "Linking these dimensions creates clear traceability and deters negligence, but also increases administrative overhead. This trade\u2011off between bureaucracy and risk mitigation is exactly what the framework discusses. The other options ignore this balance.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 4,
+      "question": "What is the role of provenance metadata in a data pipeline for generative AI?",
+      "options": {
+        "A": "It allows the model to run faster by skipping checks",
+        "B": "It tracks the origin and manipulation history of data to facilitate bias mitigation and reproducibility",
+        "C": "It encrypts the data permanently",
+        "D": "It replaces the need for data validation"
+      },
+      "correct_answer": "B",
+      "explanation": "Provenance metadata records where data came from and how it was processed, which is crucial for bias mitigation and reproducibility. Options A, C, and D misunderstand the purpose of provenance metadata.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 5,
+      "question": "Why are legal and contractual tools considered effective for enforcing Accountability across jurisdictions?",
+      "options": {
+        "A": "Because they are universally accepted and enforceable in many legal systems",
+        "B": "Because they automatically correct any biased outputs",
+        "C": "Because they eliminate the need for incident reporting",
+        "D": "Because they are purely technical standards"
+      },
+      "correct_answer": "A",
+      "explanation": "The framework states that legal and contractual tools are well\u2011established and can be enforced across jurisdictions, making them effective for accountability. Options B, C, and D do not reflect this rationale.",
+      "difficulty": "expert"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "quiz_title": "Quiz on AI Financial Landscape",
+  "total_questions": 5,
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the primary reason the reported $100 billion NVIDIA-OpenAI deal is considered ambiguous?",
+      "options": {
+        "A": "NVIDIA has officially backed out of all investment plans.",
+        "B": "The deal was initially presented as a single, binding commitment but was clarified as a progressive, non-binding agreement.",
+        "C": "OpenAI has decided to seek funding from other chip manufacturers.",
+        "D": "The $100 billion figure was a misunderstanding of cloud computing costs."
+      },
+      "correct_answer": "B",
+      "explanation": "The provided text clarifies that the $100 billion figure was not a single, binding commitment but rather a progressive investment to be made 'one step at a time.' NVIDIA CEO Jensen Huang emphasized its non-binding nature, indicating flexibility and a lack of a concrete, finalized agreement.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "question": "Jensen Huang's reported criticism of OpenAI's 'lack of discipline' most likely refers to what aspect of their operations?",
+      "options": {
+        "A": "Their reliance on cloud computing services.",
+        "B": "Their inability to secure enough GPU chips from NVIDIA.",
+        "C": "Potential issues in operational efficiency, financial management, or strategic focus.",
+        "D": "The limited range of AI models they have developed."
+      },
+      "correct_answer": "C",
+      "explanation": "The text states that Jensen Huang reportedly criticized OpenAI for a 'lack of discipline in OpenAI's business approach.' While not explicitly defined, this phrase commonly refers to operational efficiency, financial management, or strategic clarity in business contexts.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 3,
+      "question": "How does the 'Crucial Insight' about a quote relate to the NVIDIA-OpenAI deal's status?",
+      "options": {
+        "A": "It suggests that the deal is progressing smoothly without further complications.",
+        "B": "It implies that repeated assurances about the deal's lack of issues might indicate underlying complexities.",
+        "C": "It highlights the importance of clear, concise communication in large financial agreements.",
+        "D": "It serves as a direct financial disclaimer regarding the $100 billion figure."
+      },
+      "correct_answer": "B",
+      "explanation": "The quote, 'The first sign that there's drama is when someone has to tell you twice that there's no drama,' is used to 'aptly capture the sentiment surrounding the NVIDIA-OpenAI deal.' This suggests that the frequent assurances that everything is fine might actually point to underlying problems or complexities, as stated in the text.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 4,
+      "question": "What unusual characteristic is highlighted regarding the data center construction loans linked to Oracle's future leases with OpenAI?",
+      "options": {
+        "A": "They are unusually small in value, totaling less than $10 billion.",
+        "B": "They are exclusively funded by venture capital firms.",
+        "C": "They are positioned as investment-grade despite being for data center construction, which is uncommon.",
+        "D": "They require OpenAI to provide NVIDIA with direct equity in exchange for the loans."
+      },
+      "correct_answer": "C",
+      "explanation": "The text explicitly states, 'At least $56 billion worth of data center construction loans linked to Oracle's future leases with OpenAI have been issued. These are positioned as investment-grade, which is unusual for such projects.' This unusual classification is the key point of scrutiny mentioned.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 5,
+      "question": "Despite the financial ambiguity, what positive aspect of the NVIDIA-OpenAI relationship does OpenAI's leadership acknowledge?",
+      "options": {
+        "A": "NVIDIA has provided significant discounts on their AI chips.",
+        "B": "NVIDIA's commitment to a long-term customer relationship and the quality of their AI chips.",
+        "C": "NVIDIA is co-developing new AI models with OpenAI.",
+        "D": "NVIDIA has offered preferential access to their latest research and development."
+      },
+      "correct_answer": "B",
+      "explanation": "The text mentions, 'OpenAI's leadership, including Sam Altman, has expressed satisfaction with their relationship with NVIDIA, highlighting NVIDIA's high-quality AI chips and their intent to be a long-term customer.' This indicates a positive acknowledgment of chip quality and a desire for continued partnership, despite the deal's complexity.",
+      "difficulty": "medium"
+    }
+  ]
+}
