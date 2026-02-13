@@ -2,7 +2,6 @@
 
 ![alt text](image.png)
 
-
 An advanced Full-Stack application (React + Flask) for transcribing videos, generating LaTeX summaries, creating podcasts, and running interactive quizzes. This project utilizes local LLMs (Ollama) and cloud APIs (OpenRouter) to provide deep insights into educational content.
 
 ## 🚀 Features
@@ -25,7 +24,7 @@ Before you begin, ensure you have the following installed:
     *   Required for the React Frontend.
 3.  **Ollama**: [Download Ollama](https://ollama.com/)
     *   Required for local LLM inference.
-    *   **Pull the default model**: `ollama pull qwen3:30b-instruct`
+    *   **Pull the default model**: `ollama pull gpt-oss`
 4.  **FFmpeg**: [Download FFmpeg](https://ffmpeg.org/download.html)
     *   **Crucial**: Add `ffmpeg/bin` to your System PATH environment variable.
 5.  **MiKTeX / TeX Live**: [Download MiKTeX](https://miktex.org/download)
@@ -77,8 +76,12 @@ npm install
 ### LLM Provider Settings
 The application supports both **Ollama** (Local) and **OpenRouter** (Cloud).
 
--   **File**: `utils_llm.py`
--   **OpenRouter**: If you wish to use cloud models, update the `api_key` in the `get_client` function.
+1.  **OpenRouter API Key**:
+    *   Get your API key from [OpenRouter](https://openrouter.ai/).
+    *   Create a `.env` file in the root directory.
+    *   Add your key: `OPENROUTER_API_KEY=your_key_here`
+
+-   **File**: `utils_llm.py` handles the logic, loading the key from `.env`.
 -   **Ollama**: Defaults to `http://localhost:11434`.
 
 ### Remote Access (Tailscale)
@@ -116,23 +119,28 @@ Access the application at: `http://localhost:3000`
 ## 📂 Project Structure
 
 ```
-├── backend/                # Flask API Server
+├── backend/                # Flask API Server (Legacy/Optional)
 │   ├── app.py              # Main API entry point
 │   ├── media/              # Temporary storage for uploads
 │   └── requirements.txt    # Backend dependencies
-├── frontend/               # React Frontend (Vite)
+├── frontend/               # React Frontend (Vite) (Legacy/Optional)
 │   ├── src/                # React Source Code
 │   ├── vite.config.js      # Vite Configuration
 │   └── package.json        # Frontend dependencies
 ├── media/                  # Shared Media Storage (Audio/Video)
+├── quiz/                   # Generated JSON Quizzes
 ├── render/                 # Generated PDFs and TeX files
 ├── transcript/             # Generated Transcripts and OCR text
 ├── TTS/                    # Generated Podcast Audio
+├── .env                    # Environment variables (API Keys) - DO NOT COMMIT
+├── .gitignore              # Git ignore rules
+├── main.py                 # Streamlit Application Entry Point
 ├── utils_llm.py            # LLM Logic (Ollama/OpenRouter)
+├── utils_llm_quiz.py       # Quiz Generation Logic
 ├── utils_ocr.py            # OCR Logic (PDF/Images)
 ├── utils_processing.py     # Unified Media Processing (Whisper/FFmpeg)
 ├── utils_storage.py        # File Management Utility
-├── run_app.bat             # Windows Startup Script
+├── run_app.bat             # Windows Startup Script (Flask/React)
 └── requirements.txt        # Root dependencies
 ```
 
@@ -140,4 +148,4 @@ Access the application at: `http://localhost:3000`
 
 -   **"FFmpeg not found"**: Ensure the `bin` folder of your FFmpeg installation is added to your System Environment Variables (PATH).
 -   **"pdflatex not found"**: Install MiKTeX and ensure it's in your PATH. Restart your terminal after installing.
--   **"Ollama connection failed"**: Ensure Ollama is running (`ollama serve`) and the model `qwen3:30b-instruct` is pulled.
+-   **"Ollama connection failed"**: Ensure Ollama is running (`ollama serve`) and the model `gpt-oss` is pulled.
